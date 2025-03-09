@@ -6,7 +6,6 @@ import "leaflet/dist/leaflet.css";
 import "./App.css";
 import L from "leaflet";
 
-// Define types for our data structures
 interface ElementCount {
   Point: number;
   LineString: number;
@@ -34,7 +33,6 @@ interface GeoJsonData {
   features: GeoJsonFeature[];
 }
 
-// Component to handle map bounds update
 function MapUpdater({ geoJson }: { geoJson: GeoJsonData | null }) {
   const map = useMap();
 
