@@ -1,0 +1,43 @@
+.App {
+  padding: 20px;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.controls {
+  margin-bottom: 20px;
+}
+
+button {
+  margin: 0 10px;
+  padding: 5px 15px;
+}
+
+.content {
+  display: flex;
+  gap: 20px;
+}
+
+.map-container {
+  flex: 2;
+}
+
+.info {
+  flex: 1;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+th,
+td {
+  border: 1px solid #ddd;
+  padding: 8px;
+  text-align: left;
+}
+
+th {
+  background-color: #f2f2f2;
+}
